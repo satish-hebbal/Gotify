@@ -127,7 +127,7 @@ document.getElementById("next").addEventListener('click', ()=>{
     giff();
     masterPlay.textContent = 'pause_circle';
     document.getElementById("songMasterName").innerHTML = songs[songIndex].songName;
-    setBg();
+    document.body.style.background = BGcolors[songIndex].background;
 })
 document.getElementById("prev").addEventListener('click', ()=>{
     if(songIndex <= 1){
@@ -143,6 +143,7 @@ document.getElementById("prev").addEventListener('click', ()=>{
     giff();
     masterPlay.textContent = 'pause_circle';
     document.getElementById("songMasterName").innerHTML = songs[songIndex].songName;
+    document.body.style.background = BGcolors[songIndex].background;
 })
 
 // CHANGE BG GRADIENT FUNCTION
