@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,700;1,100;1,200;1,300;1,400;1,600&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gabarito', cursive;
+    background-color: rgb(17, 17, 17);
+    color:rgb(226, 229, 255);
+} 
+.about{
+    position: relative;
+}
+.aboutMsg{
+    border: #5d65ff 0.25px solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.aboutMsg:hover{
+    opacity: 1;
+}
+#cross{
+    color: #ff8181;
+}
+.box{
+    position: absolute;
+    display: block;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #23d5ab;
+    opacity: 0;
+    transition: 2s ease-in-out;
+}
+.navItems{
+    cursor: pointer;
+}
+nav{
+    font-family: 'Gabarito', cursive;
+    color: aliceblue;
+}
+nav li{
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(11 9 14);
+    margin: 0%;
+    align-items: center;
+}
+nav ul img{
+    height: 42px;
+    padding-right: 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 71vh;
+    background-color:rgb(11 9 14);
+    margin: 20px auto ;
+    padding: 15px;
+    width: 95%;
+    color:rgb(205, 205, 248);
+    border-radius: 10px;
+    background-image: url('gomez.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 120% auto;
+}
+.container h1{
+    margin: 0px 0px 10px 20px;
+}
+.bottom{
+    position: sticky;
+    background-color: rgb(11 9 14);
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#pp{
+    display: flex;
+    align-items: center;
+}
+#myProgressBar{
+    margin: 5px;
+    width: 600px;
+    height: 3px;
+    cursor: pointer;
+}
+.material-icons {
+    font-size: 36px;
+    color:rgb(205, 205, 248);
+    cursor: pointer;
+}
+.songListContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.songItem{
+    margin-left: 25px;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin: 5px;
+}
+.songName{
+    margin-left: 5px;
+}
+.songItem img{
+    border-radius: 5px;
+    margin-left:20px;
+    height: 50px;
+}
+.songInfo{
+    margin-left: 30px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+/* gradients */
+.gradient-0{
+    background: rgb(255,136,40);
+    background: linear-gradient(90deg, rgba(255,136,40,1) 0%, rgba(217,87,68,1) 51%, rgba(255,198,99,1) 100%);
+    transition: background 2s ease; 
+}
+.gradient-1{
+    background: rgb(185,63,44);
+    background: linear-gradient(90deg, rgba(185,63,44,1) 0%, rgba(82,140,210,1) 51%, rgba(6,39,108,1) 100%);
+    transition: background 2s ease;
+}
+.gradient-2{
+    background: rgb(196,119,62);
+background: linear-gradient(90deg, rgba(196,119,62,1) 0%, rgba(146,93,47,1) 13%, rgba(13,19,17,1) 100%);
+transition: background 2s ease;
+}
+.gradient-3{
+    background: rgb(88,88,88);
+background: linear-gradient(194deg, rgba(88,88,88,1) 0%, rgba(0,0,0,1) 100%);
+transition: background 2s ease;
+}
+.gradient-4{
+    background: rgb(235,169,75);
+    background: linear-gradient(264deg, rgba(235,169,75,1) 0%, rgba(90,34,0,1) 29%, rgba(0,0,0,1) 72%);
+    transition: background 2s ease;
+}
+.gradient-5{
+    background: rgb(34,58,99);
+    background: linear-gradient(103deg, rgba(34,58,99,1) 0%, rgba(190,189,207,1) 100%);
+    transition: background 2s ease;
+}
+.gradient-6{
+    background: rgb(83,12,9);
+background: linear-gradient(103deg, rgba(83,12,9,1) 0%, rgba(6,0,0,1) 100%);
+transition: background 2s ease;
+}
+.gradient-7{
+    background: rgb(149,149,149);
+    background: linear-gradient(55deg, rgba(149,149,149,1) 0%, rgba(56,65,70,1) 50%, rgba(3,16,25,1) 100%);
+    transition: background 2s ease;
+}
+
