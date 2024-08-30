@@ -1,4 +1,6 @@
-# 🎵 Gotify - Static Music Player
+# 🎵 Gotify - Static Music Player.  <a href="https://gotify-pro.netlify.app/" target="_blank"> Visit Gotify<a/>
+
+
 
 <div align="center">
   <img src="Gotify_card.png" alt="Gotify Screenshot" height="200px" style="object-fit: contain;">
