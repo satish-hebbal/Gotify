@@ -1,5 +1,8 @@
 # 🎵 Gotify - Static Music Player
-<img src="Gotify_card.png" alt="Gotify Screenshot">
+
+<div align="center">
+  <img src="Gotify_card.png" alt="Gotify Screenshot" height="200px" style="object-fit: contain;">
+</div>
 
 Gotify is a simple and elegant music player that plays a selection of 10 songs by Selena Gomez. Each time a song changes, the background color also changes, providing a dynamic and engaging experience. This project is built with basic JavaScript and styled with Tailwind CSS.
 
